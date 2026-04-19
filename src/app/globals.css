@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-black: #000000;
+  --color-brand-amber: #ffbf00;
+  --color-brand-charcoal: #121212;
+
+  --color-background: var(--color-brand-black);
+  --color-foreground: #ffffff;
+  
+  --font-sans: var(--font-inter);
+}
+
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), sans-serif;
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+html {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+@utility glass {
+  background: rgba(18, 18, 18, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 191, 0, 0.1);
+}
+
+@utility shadow-amber-glow {
+  box-shadow: 0 4px 20px rgba(255, 191, 0, 0.15);
+}
+
+@utility shadow-amber-glow-hover {
+  box-shadow: 0 8px 30px rgba(255, 191, 0, 0.3);
+}
+
+::selection {
+  background-color: #ffbf00;
+  color: #000000;
+}
