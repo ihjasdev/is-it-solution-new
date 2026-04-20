@@ -160,13 +160,13 @@ export default function Home() {
       {/* Trust / Logos placeholder */}
       <section className="py-20 border-t border-b border-gray-800 bg-brand-black">
         <div className="max-w-7xl mx-auto px-4">
-          <p className="text-center text-gray-500 font-medium mb-10 text-sm tracking-widest uppercase">Trusted by forward-thinking companies</p>
+          <p className="text-center text-gray-500 font-medium mb-10 text-sm tracking-widest uppercase">Our valuable Clients</p>
           <div className="flex flex-wrap justify-center items-center gap-12 md:gap-24 opacity-50 grayscale hover:grayscale-0 transition-all duration-500">
-            <div className="text-xl font-bold font-sans">CORP <span className="text-brand-amber">ONE</span></div>
-            <div className="text-xl font-bold font-serif">AeroDynamics</div>
-            <div className="text-xl font-bold tracking-widest">NEXUS</div>
-            <div className="text-xl font-black italic">Vertex</div>
-            <div className="text-xl font-medium tracking-tight">GLOBAL<span className="font-light">sys</span></div>
+            <div className="text-xl font-bold font-sans">Barakah <span className="text-brand-amber">Charity</span></div>
+            <div className="text-xl font-bold font-serif">PAFFREL</div>
+            <div className="text-xl font-bold tracking-widest">AIMG</div>
+            <div className="text-xl font-black italic">Adzone</div>
+            <div className="text-xl font-medium tracking-tight">G<span className="font-light">base</span></div>
           </div>
         </div>
       </section>
